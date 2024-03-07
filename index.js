@@ -1,4 +1,4 @@
-const socket = io.connect("http://192.168.10.2:1337");
+const socket = io.connect("https://mypicoserv-unuojesj3q-od.a.run.app");
 socket.emit("join", "Pico", false);
 const v1 = document.getElementById('V1');
 const v2 = document.getElementById('V2');
