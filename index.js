@@ -5,6 +5,7 @@ const v2 = document.getElementById('V2');
 const v3 = document.getElementById('V3');
 const v4 = document.getElementById('V4');
 const v5 = document.getElementById('V5');
+navigator.vibrate = navigator.vibrate || navigator.webkitVibrate || navigator.mozVibrate || navigator.msVibrate; 
 
 v1.onclick = ()=>{
     let mess = "Vib1";
