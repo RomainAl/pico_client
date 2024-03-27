@@ -11,29 +11,29 @@ v1.onclick = ()=>{
     let mess = "Vib1";
     socket.emit("mess", mess);
     console.log(mess);
-    if (navigator.vibrate){ navigator.vibrate([400, 0, 300, 0, 200, 0, 100].map(function(x) { return (x+200) * Math.random(); })); }
+    if (navigator.vibrate){ navigator.vibrate(500); }
 }
 v2.onclick = ()=>{
     let mess = "Vib2";
     socket.emit("mess", mess);
     console.log(mess);
-    if (navigator.vibrate){ navigator.vibrate([400, 0, 300, 0, 200, 0, 100].map(function(x) { return (x+200) * Math.random(); })); }
+    if (navigator.vibrate){ navigator.vibrate(500); }
 }
 v3.onclick = ()=>{
     let mess = "Vib3";
     socket.emit("mess", mess);
     console.log(mess);
-    if (navigator.vibrate){ navigator.vibrate([400, 0, 300, 0, 200, 0, 100].map(function(x) { return (x+200) * Math.random(); })); }
+    if (navigator.vibrate){ navigator.vibrate(500); }
 }
 v4.onclick = ()=>{
     let mess = "Vib4";
     socket.emit("mess", mess);
     console.log(mess);
-    if (navigator.vibrate){ navigator.vibrate([400, 0, 300, 0, 200, 0, 100].map(function(x) { return (x+200) * Math.random(); })); }
+    if (navigator.vibrate){ navigator.vibrate(500); }
 }
 v5.onclick = ()=>{
     let mess = "Vib5";
     socket.emit("mess", mess);
     console.log(mess);
-    if (navigator.vibrate){ navigator.vibrate([400, 0, 300, 0, 200, 0, 100].map(function(x) { return (x+200) * Math.random(); })); }
+    if (navigator.vibrate){ navigator.vibrate(500); }
 }
