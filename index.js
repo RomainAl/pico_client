@@ -1,7 +1,11 @@
+console.log(location.protocol);
+
 if (location.protocol !== 'https:') { // TODO
     location.replace(`https:${location.href.substring(location.protocol.length)}`);
+    console.log('go https');
     alert("Go HTTPS !");
-  }
+}
+
 const socket = io.connect("https://mypicoserv-unuojesj3q-od.a.run.app");
 socket.emit("join", "Pico", false);
 const v1 = document.getElementById('V1');
