@@ -1,10 +1,21 @@
-#buttons {
+
+#app{
 	position: absolute;
-	font-size: 16px;
-	z-index: 2;
 	top: 0;
 	left: 0;
 	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,1);
+	display: flex;
+	flex-direction: row;
+	align-content: space-around;
+	justify-content: space-around;
+}
+
+.buttons {
+	font-size: 16px;
+	z-index: 2;
+	top: 0;
 	height: 100%;
 	display: flex;
 	align-items: center;
@@ -13,7 +24,7 @@
 	background: rgba(0,0,0,1);
 }
 
-#buttons button {
+.buttons button {
     background: transparent;
     border: 0;
     border: 1px solid rgb(255, 255, 255);
