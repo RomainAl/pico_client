@@ -1,6 +1,9 @@
+/* body{
+	overflow: hidden;
+} */
 
 #app{
-	position: absolute;
+	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -25,6 +28,8 @@
 }
 
 .buttons button {
+	width: 80px;
+	height: 80px;
 	font-family:inherit;
 	font-size:1rem;
 	color:rgba(80,10,10,0.7);
