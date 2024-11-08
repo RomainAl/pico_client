@@ -5,7 +5,8 @@
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: rgba(0,0,0,1);
+	/* background: rgba(0,0,0,1); */
+	background: #ECE8DF;
 	display: flex;
 	flex-direction: row;
 	align-content: space-around;
@@ -13,7 +14,6 @@
 }
 
 .buttons {
-	font-size: 16px;
 	z-index: 2;
 	top: 0;
 	height: 100%;
@@ -21,16 +21,42 @@
 	align-items: center;
 	justify-content:space-evenly;
 	flex-direction: column;
-	background: rgba(0,0,0,1);
+	font-family:"Arial Black";
 }
 
 .buttons button {
+	font-family:inherit;
+	font-size:1rem;
+	color:rgba(80,10,10,0.7);
+	text-shadow: 	
+		0px 1px 1px rgba(150,10,10,1),
+		0 0 0 #000,
+		0px 1px 1px rgba(255,220,200,0.9);
+	-webkit-tap-highlight-color: transparent;
     background: transparent;
-    border: 0;
     border: 1px solid rgb(255, 255, 255);
     border-radius: 50%;
-    color: #ffffff;
     padding: 20px 20px;
     margin: 15px;
+	background: linear-gradient(#8b0101,#e00000);
+	box-shadow:
+    0 5px 2px 3px rgba(158, 158, 158, 0.4), 
+    0 3px 5px #B7B6B6, 
+    0 0 0 2px #BBB7AE, 
+    inset 0 -3px 1px 2px rgba(186, 178, 165, 0.5),
+    inset 0 3px 1px 2px rgba(246, 245, 241, 0.3);
+    cursor: pointer;
+}
+
+
+.buttons button:active {	
+	-webkit-tap-highlight-color: transparent;
+    background: linear-gradient(#8b0101,#e00000);
+	border:1px solid #BAB7AE;
+    border-radius: 50%;
+    padding: 20px 20px;
+    margin: 15px;
+	box-shadow:  0 0 0 0 #BBB7AE;
+	color:rgba(150,10,10,0.7);
     cursor: pointer;
 }
